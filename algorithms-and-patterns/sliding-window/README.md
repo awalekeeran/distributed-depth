@@ -13,3 +13,7 @@ As a Senior Engineer, mastering this isn't just about LeetCode; it's about under
 - **TCP Flow Control:** Managing data packets in transit.
 - **API Rate Limiting:** Protecting services from abuse via "Sliding Window Log" algorithms.
 - **Analytics:** Calculating rolling metrics in real-time streaming data.
+
+## Types of Sliding Window
+- **Fixed-Size Window**
+- **Dynamic/Variable-Size Window**
