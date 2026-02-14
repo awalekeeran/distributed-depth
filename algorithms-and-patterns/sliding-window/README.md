@@ -1,6 +1,12 @@
 # Sliding Window Pattern
 
-The **Sliding Window** technique is used to perform required operations on a specific window size of a given array or linked list, such as finding the longest subarray containing all unique characters. It optimizes "brute force" solutions from $O(N^2)$ to linear time $O(N)$.
+The **Sliding Window** technique is used to perform required operations on a specific window size of a given array or linked list, such as finding the longest subarray containing all unique characters. 
+
+It optimizes "brute force" solutions from $O(N^2)$ to linear time $O(N)$.
+
+It is heavily used in:
+- DSA (arrays, strings)
+- System Design (rate limiting, rolling averages, analytics windows, monitoring)
 
 ## Table of Contents
 1. [Core Logic & Templates](./pattern-template.md)
