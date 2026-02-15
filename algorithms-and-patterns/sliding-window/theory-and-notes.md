@@ -32,3 +32,9 @@ Useful when:
 - Condition-driven resizing
 - Operates like variable window
 - Efficient for "two-pointer" array/string operations
+
+--- 
+### Monotonic Sliding Window (Deque Assisted)
+Used when we want:
+- min/max in every window
+- maintaining a sorted-like window efficiently
