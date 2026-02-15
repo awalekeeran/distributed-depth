@@ -23,3 +23,12 @@ Window expands/shrinks based on conditions.
 - "Longest substring without repeating characters"
 - "Smallest subarray >= target sum"
 - "Longest substring with <= K distinct characters"
+
+---
+
+### Sliding Window with Two Pointers
+Two pointers (L,R) track the current window.
+Useful when:
+- Condition-driven resizing
+- Operates like variable window
+- Efficient for "two-pointer" array/string operations
