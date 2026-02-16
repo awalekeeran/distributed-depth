@@ -1,22 +1,19 @@
-# Sliding Window in System Design
+# Real-world Sliding Window use-cases
 
-## System Design Use-Cases
-- ### API Rate Limiting
-  Patterns:
-  - fixed window counter
-  - sliding log
-  - sliding window rate limiter
-- ### Real-time Monitoring / Analytics
-  - number of failed logins in last 10 mins
-  - CPU average in last 5 mins
-  - Requests per minute(RPM)
-- ### Stream Processing (Kafka, Spark, Flink)
-  Sliding window computes
-  - rolling sums
-  - rolling counts
-  - anomaly detection
-  
-  Used in:
-  - Streaming ETL jobs
-  - Clickstream analytics
-  - fraud detection
+- ### API Rate Limiting (Production APIs - Stripe, Github, AWS, Google)
+  Sliding window is the backbone of fair rate limiting.
+
+
+  How it works
+  - Each user's request timestamps are stored(queue/log)
+  - When a new request arrives, remove old timestamps beyond 'X' seconds
+  - Allow only is count <= limit
+ 
+  Why Sliding Window ??
+  - More accurate than fixed windows
+  - Avoids "bursting" at window boundaries
+  - Used in :
+    - Github API
+    - Cloudflare
+    - Stripe payments
+    - AWS API Gateway
