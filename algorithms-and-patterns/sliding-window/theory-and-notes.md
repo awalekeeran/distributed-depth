@@ -38,3 +38,9 @@ Useful when:
 Used when we want:
 - min/max in every window
 - maintaining a sorted-like window efficiently
+
+---
+### Cyclic or Circular Sliding Window
+Useful in:
+- scheduling (round-robin)
+- token bucket / rate limiters
